@@ -10,11 +10,18 @@ public class AgeCategory {
         System.out.print("Enter the age : ");
         int age = sc.nextInt();
 
-        if(age >= 0 && age <=12){
+        if(age <=0){
 
+            System.out.println("Invalid Category");
+            
+        }
+        
+        else if(age >= 0 && age <=12){
+            
             System.out.println("Category is Child");
             
         }
+        
         else if (age > 12 && age < 20) {
             
             System.out.println("Category is Teenager");
