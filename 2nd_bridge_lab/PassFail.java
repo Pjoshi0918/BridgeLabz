@@ -6,13 +6,25 @@ public class PassFail {
         
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter first subject marks : ");
+        System.out.print("Enter first subject marks : ");
         
-        int n1 = sc.nextInt();
+        int mark1 = sc.nextInt();
 
-        System.out.println("Enter second subject marks : ");
+        System.out.print("Enter second subject marks : ");
         
-        int n2 = sc.nextInt();
+        int mark2 = sc.nextInt();
+
+        if(mark1 > 40 && mark2 > 40){
+
+            System.out.println("Pass");
+            
+        }
+        
+        else{
+            
+            System.out.println("Fail");
+
+        }
 
 
     }
