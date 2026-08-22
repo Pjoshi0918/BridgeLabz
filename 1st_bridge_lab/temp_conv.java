@@ -16,6 +16,7 @@ public class temp_conv {
         System.out.println(fahrenheit);
         System.out.println(f);
 
-        
+        scanner.close();
+
     }
 }

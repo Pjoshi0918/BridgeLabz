@@ -26,6 +26,8 @@ public class PassFail {
 
         }
 
+        sc.close();
+
 
     }
 

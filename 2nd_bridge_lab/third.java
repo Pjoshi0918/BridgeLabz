@@ -47,7 +47,7 @@ public class third {
                 }
        
             }
-            // sc.close();
+            sc.close();
 
 
     }

@@ -36,6 +36,8 @@ public class ass1 {
             System.out.println("Invalid Input");
 
         }
+
+        scanner.close();
         
 
 

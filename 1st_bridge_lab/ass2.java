@@ -24,6 +24,8 @@ public class ass2 {
         
         System.out.println("After Swapping  a is : " + a + " and second integer b is : " + b);
 
+        scanner.close();
+
 
     }
 }

@@ -13,5 +13,7 @@ public class ass4 {
 
         System.out.println(fahrenheit);
 
+        scanner.close();
+
     }
 }
